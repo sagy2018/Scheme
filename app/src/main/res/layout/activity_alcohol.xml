@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dfd8ac"
+    tools:context="com.example.hp.project.alcohol">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:text=" Scheme:Assistance for Prevention of Alcoholism and Substance(Drugs) Abuse "
+                android:textColor="#a74001"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView54"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="11dp"
+                android:text="Activity"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView55"
+                android:layout_alignStart="@+id/textView55"
+                android:layout_below="@+id/textView55"
+                android:layout_marginTop="12dp"
+                android:text="  Reducing risk behaviour-alcoholism,smoking,substance abuse,etc"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView56"
+                android:layout_alignStart="@+id/textView56"
+                android:layout_below="@+id/textView56"
+                android:layout_marginTop="11dp"
+                android:text="Government"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView57"
+                android:layout_alignStart="@+id/textView57"
+                android:layout_below="@+id/textView57"
+                android:layout_marginTop="12dp"
+                android:text="  Central"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView58"
+                android:layout_alignStart="@+id/textView58"
+                android:layout_below="@+id/textView58"
+                android:layout_marginTop="13dp"
+                android:text="Department"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView59"
+                android:layout_alignStart="@+id/textView59"
+                android:layout_below="@+id/textView59"
+                android:layout_marginTop="11dp"
+                android:text="  Ministry of Social Justice and Empowerment"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView60"
+                android:layout_alignStart="@+id/textView60"
+                android:layout_below="@+id/textView60"
+                android:layout_marginTop="12dp"
+                android:text="Description"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView61"
+                android:layout_alignStart="@+id/textView61"
+                android:layout_below="@+id/textView61"
+                android:layout_marginTop="19dp"
+                android:text="  The scheme is being implemented for identification,counselling,treatment and rehabilitation of addicts through voluntary organisations.Under the scheme,financial assistance of 90% of the approved expenditure is given.In case of North Eastern States,Sikkim and Jammu and Kashmir the quantum of assistance is 95% of the total admissible expenditure."
+                android:textColor="#d3006f" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

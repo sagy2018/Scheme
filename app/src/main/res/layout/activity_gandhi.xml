@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dfd8ac"
+    tools:context="com.example.hp.project.Gandhi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="18dp"
+                android:text="Scheme:Mahatma Gandhi National Rural Employment Guarantee Act"
+                android:textColor="#a74001"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView44"
+                android:layout_alignStart="@+id/textView44"
+                android:layout_below="@+id/textView44"
+                android:layout_marginTop="22dp"
+                android:text="Activity"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView45"
+                android:layout_alignStart="@+id/textView45"
+                android:layout_below="@+id/textView45"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="11dp"
+                android:text="Fostering healthy habits including daily exercise and games."
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView45"
+                android:layout_alignRight="@+id/textView45"
+                android:layout_below="@+id/textView46"
+                android:layout_marginTop="13dp"
+                android:text="Government"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView46"
+                android:layout_alignStart="@+id/textView46"
+                android:layout_below="@+id/textView47"
+                android:layout_marginTop="16dp"
+                android:text="Central"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView47"
+                android:layout_alignStart="@+id/textView47"
+                android:layout_below="@+id/textView48"
+                android:layout_marginTop="11dp"
+                android:text="Department"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView48"
+                android:layout_alignStart="@+id/textView48"
+                android:layout_below="@+id/textView49"
+                android:layout_marginTop="14dp"
+                android:text="Ministry of Youth Affairs and Sports"
+                android:textColor="#d3006f" />
+
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView50"
+                android:layout_alignStart="@+id/textView50"
+                android:layout_below="@+id/textView51"
+                android:layout_marginTop="12dp"
+                android:text="  Playground can be constructed under MGNREGA"
+                android:textColor="#d3006f" />
+
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView49"
+                android:layout_alignStart="@+id/textView49"
+                android:layout_below="@+id/textView50"
+                android:layout_marginTop="18dp"
+                android:text="Description"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

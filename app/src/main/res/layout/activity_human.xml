@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d3c7a2"
+    tools:context="com.example.hp.project.Human">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="31dp"
+                    android:text="Human Development"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView7"
+                    android:layout_marginTop="19dp"
+                    android:text="The programme will ensure development of medical facilities and universal access to basic health amenities and regular medical examination, through issuance of medical cards.
+
+Improving the nutritional status with special focus on pregnant women, lactating mothers, young girls and children. The medical programme to cover 100per cent immunisation for all residents of the village. Focus on maintaining a balanced sex-ratio and ensuring access to facilities and special needs of persons with disability. Ensuring maximum enrolment and completion of schools through development of smart schools, which will have IT-enabled classrooms, e-library and provide web based teaching, using modern teaching aids and techniques.
+"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView64"
+                    android:layout_marginTop="177dp"
+                    android:text="Categories of Schemes"
+                    android:textColor="#c11b17"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView65"
+                    android:layout_marginTop="154dp">
+
+                </Spinner>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/textView63"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="22dp"
+                    app:srcCompat="@drawable/hum" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

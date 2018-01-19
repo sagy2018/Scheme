@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dfd8ac"
+    tools:context="com.example.hp.project.Khel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="18dp"
+                android:text="Scheme:Rajiv Gandhi Khel Abhiyaan (RGKA)"
+                android:textColor="#a74001"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_below="@+id/textView25"
+                android:layout_marginTop="15dp"
+                android:text="Activity"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView26"
+                android:layout_marginTop="16dp"
+                android:text="Fostering healthy habits including daily exercise and games"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView27"
+                android:layout_alignStart="@+id/textView27"
+                android:layout_below="@+id/textView27"
+                android:layout_marginTop="17dp"
+                android:text="Government"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView28"
+                android:layout_alignRight="@+id/textView28"
+                android:layout_below="@+id/textView28"
+                android:layout_marginTop="19dp"
+                android:text="Central"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView28"
+                android:layout_alignStart="@+id/textView28"
+                android:layout_below="@+id/textView29"
+                android:layout_marginTop="12dp"
+                android:text="Department"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_below="@+id/textView30"
+                android:layout_marginTop="21dp"
+                android:text="Ministry of Youth Affairs and Sports"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView30"
+                android:layout_alignStart="@+id/textView30"
+                android:layout_below="@+id/textView31"
+                android:layout_marginTop="18dp"
+                android:text="Description"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_below="@+id/textView32"
+                android:layout_marginTop="19dp"
+                android:text="This scheme provides financial assistance for the creation of basic sports facilities at the village and block panchayat level. Apart from this, the scheme also provides financial assistance for holding of competitions at the district, state and national level and for acquisition of sports equipment"
+                android:textColor="#d3006f" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.hp.project.Schemes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFF8C6">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:text="Development Plans"
+                android:textColor="#331f4c"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="31dp"
+                android:text=" The guiding principles for successful implementation will include leveraging the leadership and popularity of the Members of Parliament amongst the people in their respective constituencies, to guide and drive the programme.
+
+Involving the people from all sections to contribute to various development programs initiated. To ensure that local involvement succeeds in bringing together various initiatives by the government and private agencies, in a planned and coordinated manner.
+
+To build long term relationships based on cooperation and guidance from various academic and research agencies, voluntary organisations and co-operatives, while focusing on outcomes and sustainability of various initiatives."
+                android:textColor="#c12267"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView4"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:text="Choose a Plan"
+                android:textColor="#331f4c"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView12"
+                android:layout_marginTop="21dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/dev" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

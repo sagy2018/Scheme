@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string-array name="names">
+        <item>Development Plans</item>
+        <item>Personal</item>
+        <item>Human</item>
+        <item>Social</item>
+        <item>Economic</item>
+        <item>Environmental</item>
+    </string-array>
+
+    <string-array name="personal">
+        <item>Categories</item>
+        <item>Cleanliness</item>
+        <item>Sports</item>
+        <item>Drug Eradication</item>
+    </string-array>
+    <string-array name="human">
+        <item>Categories</item>
+        <item>Women and Girl Child</item>
+        <item>Health Programmes</item>
+        <item>Persons With Disability</item>
+        <item>Education:Class X and Retention</item>
+        <item>Education:e-education</item>
+        <item>Education:Adult Literacy</item>
+    </string-array>
+</resources>

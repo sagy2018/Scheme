@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.project.Swachh"
+    android:background="#dfd8ac">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scheme:Swachh Bharat Mission"
+                android:textColor="#a74001"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="36dp"
+                android:text="Activity"
+                android:textColor="#6b1244"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView15"
+                android:layout_marginTop="14dp"
+                android:text=" Inculcating hygienic behaviour and practices"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView17"
+                android:layout_marginTop="14dp"
+                android:text="Government"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView18"
+                android:layout_marginTop="13dp"
+                android:text="Central"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView19"
+                android:layout_marginTop="15dp"
+                android:text="Department"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView20"
+                android:layout_marginTop="16dp"
+                android:text="Ministry of Drinking Water and Sanitation"
+                android:textColor="#d3006f" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView21"
+                android:layout_marginTop="13dp"
+                android:text="Description"
+                android:textColor="#6b1244"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView22"
+                android:layout_marginTop="12dp"
+                android:text="This campaign aims to accomplish the vision of a ‘Clean India’. For inculcating hygienic behaviour and practices, the following components of Swachh Bharat Mission can be leveraged: I. Construction of individual sanitary toilets (mostly pit latrines) for households below the poverty line with subsidy where demand exists. II. Conversion of dry latrines (pit latrines without a water seal) into low-cost sanitary latrines. III. Construction of exclusive village sanitary complexes for women providing facilities for hand pumping, bathing, sanitation and washing on a selective basis where there is not adequate land or space within houses and where village panchayats are willing to maintain the facilities. IV. Setting up of sanitary marts. V. Total sanitation of villages through the construction of drains, soakage pits, solid and liquid waste disposal. VI. Intensive campaign for awareness generation and health education to create a felt need for personal, household and environmental sanitation facilities.
+"
+                android:textColor="#d3006f" />
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

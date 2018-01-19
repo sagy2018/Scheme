@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Schemes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainPage" />
+        <activity android:name=".Home" />
+        <activity android:name=".Intro" />
+        <activity android:name=".Human" />
+        <activity android:name=".Social" />
+        <activity android:name=".Grid" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Personal" />
+        <activity android:name=".Clean" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Swachh" />
+        <activity android:name=".Khel" />
+        <activity android:name=".Spoamdis" />
+        <activity android:name=".Gandhi" />
+        <activity android:name=".druger" />
+        <activity android:name=".alcohol" />
+        <activity android:name=".Womgirl" />
+        <activity android:name=".health" />
+        <activity android:name=".PWD" />
+        <activity android:name=".claten" />
+        <activity android:name=".eedu" />
+        <activity android:name=".adulit" />
+        <activity android:name=".beti" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".jsy" />
+        <activity android:name=".rgs" />
+        <activity android:name=".icds" />
+        <activity android:name=".nnm" />
+        <activity android:name=".igmsy" />
+        <activity android:name=".nlm" />
+        <activity android:name=".mgrn"></activity>
+    </application>
+
+</manifest>

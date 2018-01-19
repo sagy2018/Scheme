@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mom"
+    tools:context="com.example.hp.project.Womgirl">
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:text="Women and Girl child"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView66"
+        android:layout_alignStart="@+id/textView66"
+        android:layout_below="@+id/textView66"
+        android:layout_marginTop="25dp"
+        android:text="1.Beti Bachao Beti Padhao"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView67"
+        android:layout_alignStart="@+id/textView67"
+        android:layout_below="@+id/textView67"
+        android:layout_marginTop="11dp"
+        android:text="2.Janani Suraksha Yojana (JSY)"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView68"
+        android:layout_alignStart="@+id/textView68"
+        android:layout_below="@+id/textView68"
+        android:layout_marginTop="18dp"
+        android:text="3.Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (RGSEAG) - SABLA"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69"
+        android:layout_below="@+id/textView69"
+        android:layout_marginTop="16dp"
+        android:text="4.Integrated Child Development Services (ICDS)"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView70"
+        android:layout_alignStart="@+id/textView70"
+        android:layout_below="@+id/textView70"
+        android:layout_marginTop="13dp"
+        android:text="5.National Nutrition Mission"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView70"
+        android:layout_alignRight="@+id/textView70"
+        android:layout_below="@+id/textView71"
+        android:layout_marginTop="17dp"
+        android:text="6.Indira Gandhi Matritva Sahyog Yojana (IGMSY)"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView71"
+        android:layout_alignStart="@+id/textView71"
+        android:layout_below="@+id/textView72"
+        android:layout_marginTop="17dp"
+        android:text="7.Aajeevika - National Livelihood Mission"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView73"
+        android:layout_alignStart="@+id/textView73"
+        android:layout_below="@+id/textView73"
+        android:layout_marginTop="19dp"
+        android:text="8.Puratchi Thalaivar MGR Nutritious Meal Programme"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

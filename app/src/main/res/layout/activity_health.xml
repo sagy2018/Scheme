@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.project.health"
+    android:background="@drawable/health">
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="21dp"
+        android:text="Health Programmes"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView75"
+        android:layout_alignStart="@+id/textView75"
+        android:layout_below="@+id/textView75"
+        android:layout_marginTop="24dp"
+        android:text="1.National Rural Health Mission(NRHM)"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView76"
+        android:layout_alignStart="@+id/textView76"
+        android:layout_below="@+id/textView76"
+        android:layout_marginTop="14dp"
+        android:text="2.National Rural Health Mission(NRHM)New"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView77"
+        android:layout_alignStart="@+id/textView77"
+        android:layout_below="@+id/textView77"
+        android:layout_marginTop="16dp"
+        android:text="3.National AIDS and STD Control Programme"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView78"
+        android:layout_alignStart="@+id/textView78"
+        android:layout_below="@+id/textView78"
+        android:layout_marginTop="19dp"
+        android:text="4.National AYUSH Mission (NAM)"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView79"
+        android:layout_alignStart="@+id/textView79"
+        android:layout_below="@+id/textView79"
+        android:layout_marginTop="14dp"
+        android:text="5.Supply of Contraceptives"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView80"
+        android:layout_alignStart="@+id/textView80"
+        android:layout_centerVertical="true"
+        android:text="6.Assistance to Voluntary Organisations for Welfare of SCs"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView81"
+        android:layout_alignStart="@+id/textView81"
+        android:layout_below="@+id/textView81"
+        android:layout_marginTop="18dp"
+        android:text="7.Assistance for Corrective Surgery for Polio and Spinal Cord Injured Persons"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView82"
+        android:layout_alignStart="@+id/textView82"
+        android:layout_below="@+id/textView82"
+        android:layout_marginTop="18dp"
+        android:text="8.Early Intervention Centre for the Mentally Retarded Children"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView83"
+        android:layout_alignStart="@+id/textView83"
+        android:layout_below="@+id/textView83"
+        android:layout_marginTop="21dp"
+        android:text="9.Early Intervention Centre for Infant and Young Children with Hearing Impairment"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView84"
+        android:layout_alignStart="@+id/textView84"
+        android:layout_below="@+id/textView84"
+        android:layout_marginTop="15dp"
+        android:text="10. Integrated Child Development Services (ICDS)"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+</RelativeLayout>
